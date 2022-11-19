@@ -1,4 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import { Observable } from 'rxjs';
+import { EmployeeService } from '../../services/employee.service';
+import { EmployeeModel } from '../../model/employee.model';
 
 @Component({
   selector: 'app-employees-faces',
@@ -7,4 +10,9 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EmployeesFacesComponent {
+  constructor(private _employeeService: EmployeeService) {
+
+  }
+  data$: Observable<EmployeeModel[]> = this._employeeService.getAll();
 }
+
