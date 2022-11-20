@@ -7002,3 +7002,187 @@
 	"level": "info",
 	"message": "[API] Response ok: angular-component/form-properties/add"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 437
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "wXcV2hEhn4",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+		"position": 437
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeFormComponent",
+			"parentProperty": "employeeForm"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "onButtonClick()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"onButtonClick"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"onButtonClick"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"onButtonClick"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeFormComponent",
+			"parentProperty": "employeeForm"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "onButtonClick()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"onButtonClick"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"onButtonClick"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"onButtonClick"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
