@@ -12,7 +12,10 @@ export class EmployeeService {
   }
 
   getAll(): Observable<PersonModel[]> {
-    return this._httpClient.get<ApiResponse<EmployeeResponse[]>>('https://dummy.restapiexample.com/employees').pipe(map((response:ApiResponse<EmployeeResponse[]>): PersonModel[] => {
+    return this._httpClient.get<ApiResponse<EmployeeResponse[]>>(
+      'https://dummy.restapiexample.com/api/v1/employees',
+    ).pipe(
+      map((response:ApiResponse<EmployeeResponse[]>) => {
         return response.data.map((employeeResponse:EmployeeResponse) => {
           return {
             personalNumber: employeeResponse.id,
@@ -21,8 +24,10 @@ export class EmployeeService {
             img: employeeResponse.profile_image,
           }
         });
-        }));
+      })
+    )
   }
+
 
   create(employee: CreateEmployeeModel): Observable<any> {
     return this._httpClient.post('https://dummy.restapiexample.com/create', employee).pipe(map(_=>void 0));
