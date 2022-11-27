@@ -12126,3 +12126,393 @@
 	"level": "info",
 	"message": "[API] Response ok: routing/add"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 1263
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "U2lKOGw-tk",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "AppComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 1263
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "AppComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "layouts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "U2lKOGw-tk",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "layouts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
+[info] [API] Request for angular-component/templates/add-layout: {
+	"action": "angular-component/templates/add-layout",
+	"params": {
+		"componentHtmlFilePath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 1263,
+		"layoutTemplate": "section"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "U2lKOGw-tk",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/add-layout"
+}
+[info] [CLI] Calling Command angular-component/templates/add-layout: {
+	"funcParams": {
+		"componentHtmlFilePath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 1263,
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/templates/add-layout"
+}
+[info] [CommandBus]: Dispatching command AddLayoutToTemplateCommand: {
+	"commandName": "AddLayoutToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry",
+		"componentTs": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.ts",
+		"componentHtml": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"className": "AppComponent",
+		"position": 1263,
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddLayoutToTemplateCommand"
+}
+[info] [EventBus]: Broadcasting event TemplateAddedEvent: {
+	"type": "TemplateAddedEvent",
+	"payload": {
+		"componentTs": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event TemplateAddedEvent"
+}
+[info] [EventBus]: Broadcasted TemplateAddedEvent: {
+	"event": {
+		"componentTs": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.ts",
+		"tokens": {}
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted TemplateAddedEvent"
+}
+[info] [CommandBus]: Handled  AddLayoutToTemplateCommand: {
+	"commandName": "AddLayoutToTemplateCommand",
+	"payload": {
+		"workspaceRoot": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry",
+		"componentTs": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.ts",
+		"componentHtml": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"className": "AppComponent",
+		"position": 1263,
+		"layoutTemplate": "section"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddLayoutToTemplateCommand"
+}
+[info] [CLI] Called Command angular-component/templates/add-layout: {
+	"message": "[CLI] Called Command angular-component/templates/add-layout",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/templates/add-layout: {
+	"result": {
+		"filePath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/add-layout"
+}
+[info] [CommandBus]: Dispatching command ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ImportTemplateModulesCommand"
+}
+[info] [CommandBus]: Handled  ImportTemplateModulesCommand: {
+	"commandName": "ImportTemplateModulesCommand",
+	"payload": {
+		"componentModuleFilePaths": [
+			"C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.module.ts"
+		],
+		"addedTokens": {}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ImportTemplateModulesCommand"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 138
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "6mqIWODBDo",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+		"position": 138
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "AppComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "AppComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/templates/get: {
+	"action": "angular-component/templates/get",
+	"params": {
+		"name": "layouts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "4mxdwTS-Yx",
+			"correlationId": "6mqIWODBDo",
+			"clickedPath": "C:/Users/falke/Desktop/lowgular/lowgular-course-entry/src/app/app.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/templates/get"
+}
+[info] [API] Response ok: angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/templates/get"
+}
+[info] [CLI] Calling Query angular-component/templates/get: {
+	"funcParams": {
+		"name": "layouts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/templates/get"
+}
+[info] [CLI] Called Query angular-component/templates/get: {
+	"result": [
+		{
+			"label": "section",
+			"contextVariables": []
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/templates/get"
+}
