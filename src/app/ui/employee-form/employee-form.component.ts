@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { from } from 'rxjs';
 import { EmployeeService } from '../../services/employee.service';
 import { CreateEmployeeModel } from '../../model/create-employee.model';
 

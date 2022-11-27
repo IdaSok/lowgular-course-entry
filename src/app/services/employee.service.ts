@@ -3,15 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import {map, Observable} from 'rxjs';
 import { PersonModel } from '../model/person.model';
 import { CreateEmployeeModel } from '../model/create-employee.model';
-import {ApiResponse} from './api.response';
-import {EmployeeResponse} from './employee.response';
+/**import {ApiResponse} from './api.response';
+import {EmployeeResponse} from './employee.response';**/
 
 @Injectable()
 export class EmployeeService {
   constructor(private _httpClient: HttpClient) {
   }
 
-  getAll(): Observable<PersonModel[]> {
+  /**getAll(): Observable<PersonModel[]> {
     return this._httpClient.get<ApiResponse<EmployeeResponse[]>>(
       'https://dummy.restapiexample.com/api/v1/employees',
     ).pipe(
@@ -26,6 +26,10 @@ export class EmployeeService {
         });
       })
     )
+  }**/
+
+  getAll(): Observable<PersonModel[]> {
+    return this._httpClient.get<PersonModel[]>('assets/data/people.json')
   }
 
 
